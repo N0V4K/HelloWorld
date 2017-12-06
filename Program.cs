@@ -32,4 +32,19 @@ namespace HelloWorld
             {
                 Console.WriteLine("Result of addition: " + AddTwoNumbers(n1,n2));
     }
+
+			else if (option == 2)
+			{
+				Console.WriteLine("Result of subtraction: " + AddTwoNumbers(n1, n2));
+			}
+
+			else if (option == 3)
+			{
+				Console.WriteLine("Result of multiplitcation: " + AddTwoNumbers(n1, n2));
+			}
+
+			else if (option == 4)
+			{
+				Console.WriteLine("Result of division: " + AddTwoNumbers(n1, n2));
+			}
 }
